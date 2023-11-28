@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+    <header>
+        <img src="C:\Users\91749\vansh\casual-classic-low-resolution-logo-color-on-transparent-background.png"
+            alt="company logo" class="one">
+        <p>CASUAL CLASSIC</p>
+
+    </header>
+    <br>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+        <script>
+            function openNav() {
+                document.getElementById("myNav").style.width = "100%";
+            }
+            function closeNav() {
+                document.getElementById("myNav").style.width = "0%";
+            }
+        </script>
+    </nav>
+
+    <body>
+        <br>
+        <div class="sale" style="gap:60px" tabindex="0">
+            <marquee behavior="alternate" direction="left">
+                <span>Trendiest Festive sale is LIVE <span font-size="100px">&#128378;</span></span>
+                <span>Trendiest Festive sale is LIVE <span font-size="100px">&#128378;</span></span>
+                <span>Trendiest Festive sale is LIVE <span font-size="100px">&#128378;</span></span>
+                <span>Trendiest Festive sale is LIVE <span font-size="100px">&#128378;</span></span>
+                <span>Trendiest Festive sale is LIVE <span font-size="100px">&#128378;</span></span>
+                <span>Trendiest Festive sale is LIVE <span font-size="100px">&#128378;</span></span>
+                <span>Trendiest Festive sale is LIVE <span font-size="100px">&#128378;</span></span>
+                <span>Trendiest Festive sale is LIVE <span font-size="100px">&#128378;</span></span>
+                <span>Trendiest Festive sale is LIVE <span font-size="100px">&#128378;</span></span>
+                <span>Trendiest Festive sale is LIVE <span font-size="100px">&#128378;</span></span>
+                <span>Trendiest Festive sale is LIVE <span font-size="100px">&#128378;</span></span>
+                <span>Trendiest Festive sale is LIVE <span font-size="100px">&#128378;</span></span>
+            </marquee>
+        </div>
+        <br>
+        <div class="slider-container">
+            <div class="slides">
+                <div class="slide"><img src="C:\Users\91749\vansh\parker-burchfield-tvG4WvjgsEY-unsplash.jpg"></img>
+                </div>
+                <!--<div class="slide"><img src="C:\Users\91749\vansh\ove-items-PlufiHcZG3s-unsplash.jpg"></img></div>
+              <div class="slide"><img src="C:\Users\91749\vansh\parker-burchfield-tvG4WvjgsEY-unsplash.jpg"></img></div>-->
+                <!-- Add more slides as needed -->
+            </div>
+        </div>
+
+        <script>
+            // JavaScript to handle automatic sliding
+            const slidesContainer = document.querySelector('.slides');
+            let slideIndex = 0;
+
+            function showSlides() {
+                slideIndex++;
+                if (slideIndex >= slidesContainer.children.length) {
+                    slideIndex = 0;
+                }
+
+                const translateValue = -100 * slideIndex + '%';
+                slidesContainer.style.transform = `translateX(${translateValue})`;
+
+                // Adjust the interval (in milliseconds) to control the speed of the automatic slide
+                setTimeout(showSlides, 5000); // Change 3000 to your desired interval
+            }
+
+            // Start the automatic sliding
+            showSlides();
+        </script>
+        <h1>COLLECTION</h1>
+        <div class="container">
+            <div class="tshirt">
+                <img src="C:\Users\91749\vansh\740dfe262e010f455c5aada7fe67a7df.jpg" alt="T-Shirt 1" height="230.13px"
+                    width="200px">
+                <h2>Men's Shirt</h2>
+                <p>A Shirt with a collar, sleeves with cuffs, and a full vertical opening with buttons or snaps</p>
+                <p> Shirt Price:- &#x20B9;1200</p>
+
+            </div>
+            <div class="tshirt">
+                <img src="black-t-shirt-is-hanging-hanger-with-word-dope-it_1340-38184.avif" alt="T-Shirt 2"
+                    style="width:50%">
+                <h2>black tees</h2>
+                <p>Breathable Solid Color round Neck Short Sleeve Cotton T-Shirts Fit</p>
+                <p>Price: &#x20B9;799</p>
+            </div>
+            <div class="tshirt">
+                <img src="C:\Users\91749\vansh\download.jpeg" alt="T-Shirt 3" style="width: 200px;">
+                <h2>Men glasses</h2>
+                <p> Exclusive Black Polarized Wayfarer Sunglasses for Men & Women</p>
+                <p>Price: &#x20B9;999</p>
+            </div>
+            <div class="tshirt">
+                <img src="C:\Users\91749\vansh\download.jpeg" alt="T-Shirt 3" style="width: 200px;">
+                <h2>T-Shirt 3</h2>
+                <p>Description of T-Shirt 3.</p>
+                <p>Price:&#x20B9;599</p>
+            </div>
+        </div>
+        <h1>
+            TROUSERS/PANTS
+        </h1>
+        <div class="container">
+            <div class="tshirt">
+                <img src="C:\Users\91749\vansh\740dfe262e010f455c5aada7fe67a7df.jpg" alt="T-Shirt 1" height="230.13px"
+                    width="200px">
+                <h2>Men's Shirt</h2>
+                <p>A Shirt with a collar, sleeves with cuffs, and a full vertical opening with buttons or snaps</p>
+                <p> Shirt Price:- &#x20B9;1200</p>
+
+            </div>
+            <div class="tshirt">
+                <img src="black-t-shirt-is-hanging-hanger-with-word-dope-it_1340-38184.avif" alt="T-Shirt 2"
+                    style="width:50%">
+                <h2>black tees</h2>
+                <p>Breathable Solid Color round Neck Short Sleeve Cotton T-Shirts Fit</p>
+                <p>Price: &#x20B9;799</p>
+            </div>
+            <div class="tshirt">
+                <img src="C:\Users\91749\vansh\download.jpeg" alt="T-Shirt 3" style="width: 200px;">
+                <h2>Men glasses</h2>
+                <p> Exclusive Black Polarized Wayfarer Sunglasses for Men & Women</p>
+                <p>Price: &#x20B9;999</p>
+            </div>
+            <div class="tshirt">
+                <img src="C:\Users\91749\vansh\download.jpeg" alt="T-Shirt 3" style="width: 200px;">
+                <h2>T-Shirt 3</h2>
+                <p>Description of T-Shirt 3.</p>
+                <p>Price:&#x20B9;599</p>
+            </div>
+        </div>
+    </body>
+    <footer>
+        <p>&copy; 2023 Shirt Shop</p>
+    </footer>
+</body>
+
+</html>
