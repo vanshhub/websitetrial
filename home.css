@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1f1f1f;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    height: 150px;
+
+
+}
+
+header p {
+    font-style: oblique;
+    margin-top: 60px;
+    font-size: 300%;
+    text-shadow: 0px 4px 2px white;
+    position: absolute;
+    left: 40%;
+
+
+
+}
+
+.one {
+    position: absolute;
+    left: 5%;
+    height: 150px;
+    width: 150px;
+    padding-bottom: 10px;
+
+
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    background-color: #2a2929;
+    border-radius: 30px;
+}
+
+nav a {
+    padding: 14px 20px;
+    text-decoration: none;
+    color: #faf6f6;
+    display: block;
+}
+
+nav a:hover {
+    background-color: #656262;
+    color: white;
+    border-radius: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.tshirt {
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #171717;
+    text-align: center;
+}
+
+footer {
+    background-color: #1f1f1f;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: auto;
+    width: 100%;
+}
+
+p {
+    color: black solid;
+    text-decoration: solid;
+}
+
+.container img {
+    transition: 1s ease;
+}
+
+.container img:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+
+h1 {
+    background-color: #2a2929;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    /*
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    */
+
+
+}
+
+.sale {
+    font-size: large;
+    color: solid black;
+}
+
+/* Style for the slider container */
+.slider-container {
+    width:80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Style for the individual slides */
+.slides {
+    display:flex;
+    transition: transform 1s ease-in-out;
+    max-width: 100%;
+    width: min-content;
+    
+}
+
+.slide {
+    min-width: 100%;
+}
+
+/*
+.container img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+}
+
+.container img:hover {
+    filter: grayscale(0%);
+    filter: rgb(63, 61, 61);
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+}*/
